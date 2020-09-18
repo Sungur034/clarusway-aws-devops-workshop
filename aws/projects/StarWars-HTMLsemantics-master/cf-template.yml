@@ -40,10 +40,18 @@ Resources:
             yum update -y
             yum install httpd -y
             cd /var/www/html/
-            wget https://raw.githubusercontent.com/Sungur034/clarusway-aws-devops-workshop/master/aws/projects/fenerbah%C3%A7e/static-web/index.html
-            wget https://raw.githubusercontent.com/Sungur034/clarusway-aws-devops-workshop/master/aws/projects/fenerbah%C3%A7e/static-web/FENER1.jpg
-            wget https://raw.githubusercontent.com/Sungur034/clarusway-aws-devops-workshop/master/aws/projects/fenerbah%C3%A7e/static-web/FENER2.jpg
-            wget https://raw.githubusercontent.com/Sungur034/clarusway-aws-devops-workshop/master/aws/projects/fenerbah%C3%A7e/static-web/FENER3.jpg
+            wget hhttps://raw.githubusercontent.com/Sungur034/clarusway-aws-devops-workshop/master/aws/projects/StarWars-HTMLsemantics-master/index.html
+            wget https://raw.githubusercontent.com/Sungur034/clarusway-aws-devops-workshop/master/aws/projects/StarWars-HTMLsemantics-master/style.css
+            wget https://raw.githubusercontent.com/Sungur034/clarusway-aws-devops-workshop/master/aws/projects/StarWars-HTMLsemantics-master/images/amblem.png
+            wget https://raw.githubusercontent.com/Sungur034/clarusway-aws-devops-workshop/master/aws/projects/StarWars-HTMLsemantics-master/images/banner.jpg
+            wget https://raw.githubusercontent.com/Sungur034/clarusway-aws-devops-workshop/master/aws/projects/StarWars-HTMLsemantics-master/images/img1.jpg
+            wget https://raw.githubusercontent.com/Sungur034/clarusway-aws-devops-workshop/master/aws/projects/StarWars-HTMLsemantics-master/images/img2.jpeg
+            wget https://raw.githubusercontent.com/Sungur034/clarusway-aws-devops-workshop/master/aws/projects/StarWars-HTMLsemantics-master/images/img3.jpg
+            wget https://raw.githubusercontent.com/Sungur034/clarusway-aws-devops-workshop/master/aws/projects/StarWars-HTMLsemantics-master/images/img4.jpg
+            wget https://raw.githubusercontent.com/Sungur034/clarusway-aws-devops-workshop/master/aws/projects/StarWars-HTMLsemantics-master/images/img5.jpeg
+            wget https://raw.githubusercontent.com/Sungur034/clarusway-aws-devops-workshop/master/aws/projects/StarWars-HTMLsemantics-master/images/img6.jpg
+            wget https://raw.githubusercontent.com/Sungur034/clarusway-aws-devops-workshop/master/aws/projects/StarWars-HTMLsemantics-master/images/img7.jpg
+            wget https://raw.githubusercontent.com/Sungur034/clarusway-aws-devops-workshop/master/aws/projects/StarWars-HTMLsemantics-master/images/starry-sky.jpg
             systemctl start httpd
             systemctl enable httpd
 Outputs:
